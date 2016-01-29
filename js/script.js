@@ -24,7 +24,6 @@ if (groceryListItems.length>0){
         //then add a new list item that says "Bought all the groceries."
 
 
-
 if (groceryListItems.length === 0) {
     
     var finished = document.createElement('li');

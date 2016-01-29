@@ -21,3 +21,5 @@ When the list is empty, get the unordered list element by ide, then add a new li
 When you are done, push your files to GitHub, then make sure that your page displays and runs correctly on the GitHub website.  
 
 Don't forget the Pull Request.  Put a screenshot of the open request in the assignment dropbox.
+
+Rebuild, please! 

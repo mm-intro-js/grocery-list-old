@@ -7,19 +7,19 @@ for (i= 0; i < GroceryList.length; i++) {
 }
     
 
-    if (GroceryList.length > 0) {
+    while (GroceryList.length > 0) {
         var remItem = document.getElementsByTagName('li')[0];
         var contItem = remItem.parentNode;
         contItem.removeChild(remItem);
+    
     }
-        else {
 var completeLI = document.createElement("li");
 var completeLItext = document.createTextNode("Bought all the groceries.");
 
 completeLI.appendChild(completeLItext);
 var position = document.getElementsByTagName('ul')[0];
 position.appendChild(completeLI);
-    }
+    
     
     
     

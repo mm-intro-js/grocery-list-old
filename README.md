@@ -11,6 +11,12 @@ Write JavaScript to get all the list items (get them by tag name) and loop throu
 
 When the list is empty, get the unordered list element by id, then add a new list item that says "Bought all the groceries."
 
+
+### Requirements
+Behavior:
+
+- Remove the HTML data shown as a demo
+
 ## Final Testing
 When you are done, push your files to GitHub, then make sure that your page displays and runs correctly on the GitHub website.  
 

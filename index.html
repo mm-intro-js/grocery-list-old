@@ -2,28 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Get the Groceries</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Get the Groceries</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Get the Groceries</h1>
-    </header>
+  <header>
+    <h1>Get the Groceries</h1>
+  </header>
 
-    <main>
-        <h2>Need to buy...</h2>
-        <ul id="grocery-list">
-          <li>Milk</li>
-          <li>Cheese</li>
-          <li>Bread</li>
-          <li>Ice-Cream</li>
-        <ul>
-    </main>
+  <main>
+    <div>
+      <h2>Need to buy...</h2>
+      <ul id="grocery-list">
+        <li>Milk</li>
+        <li>Cheese</li>
+        <li>Bread</li>
+        <li>Ice-Cream</li>
+      </ul>
 
-    <!-- javascript -->
-    <script src="js/script.js"></script>
+      <div id="btn-new-item">
+        <button href="#">new item</button>
+      </div>
+      <form id="fm-new-item">
+        <input type="text" id="itemDescription" placeholder="Add description" />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
+  </main>
+
+  <!-- javascript -->
+  <script src="js/script.js"></script>
 
 </body>
 
